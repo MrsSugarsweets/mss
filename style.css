@@ -1,0 +1,192 @@
+body {
+    margin:0;
+    padding: 0;
+    background-image: url(https://wallpapers.com/images/high/grainy-pink-glitters-1x8zs7uws7rao6fp.webp);
+}
+
+.overlay {
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 35vh;
+    overflow: hidden;
+}
+
+#motto {
+    font-family: "Satisfy", cursive;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: hotpink;
+}
+
+.text-overlay h1 {
+    font-family: "Style Script", cursive;
+    font-size: 5.3em;
+    margin: 0;
+}
+
+.text-overlay h4 {
+    font-family: "Style Script", cursive;
+    font-size: 1.6em;
+    margin: 0;
+}
+
+.about {
+    position: absolute;
+    top: 40%;
+    left: 47.5%;
+    width: 100%;
+    overflow: hidden;
+    font-family: "Oleo Script Swash Caps", system-ui;
+    font-size: 1.3em;
+    text-decoration: underline 2px;
+}
+
+.bio {
+    position: absolute;
+    top: 58%;
+    left: 33%;
+    width: 35%;
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bolder;
+    display: table;
+    margin: 45px auto 0px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.video-overlay {
+    font-size: 1.6em;
+    font-family: "Oleo Script Swash Caps", system-ui;
+    color: black;
+    position: absolute;
+    top: 120%;
+    left: 45%;
+    width: 100%;
+    height: 35vh;
+    overflow: hidden;
+}
+
+.v1 {
+    width: 50%;
+    height: auto;
+    transform: scale(0.37);
+    position: absolute;
+    top: 120%;
+    margin-left: 50%;
+}
+
+.v2 {
+    width: 50%;
+    height: auto;
+    transform: scale(0.37);
+    position: absolute;
+    top: 120%;
+    margin-left: 25%;
+}
+
+.v3{
+    width: 50%;
+    height: auto;
+    transform: scale(0.37);
+    position: absolute;
+    top: 120%;
+    margin-left: .01%;
+}
+
+.img1 {
+    width: 50%;
+    height: auto;
+    transform: scale(0.38);
+    position: absolute;
+    top: 210%;
+    margin-left: 25%;
+}
+
+.img2 {
+    width: 50%;
+    height: auto;
+    transform: scale(0.38);
+    position: absolute;
+    top: 210%;
+    margin-left: 50%;
+}
+
+.img3 {
+    width: 50%;
+    height: auto;
+    transform: scale(0.38);
+    position: absolute;
+    top: 210%;
+    margin-left: .01%;
+}
+
+@media (max-width: 768px) {
+    .text-overlay h1 {
+        font-size: 3em;
+    }
+
+    .text-overlay h4 {
+        font-size: 1.2em;
+    }
+
+    .about {
+        font-size: 1em;
+    }
+
+    .bio {
+        font-size: 1em;
+    }
+
+    .video-overlay,
+    .photo-overlay {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-overlay h1 {
+        font-size: 2.5em;
+    }
+
+    .text-overlay h4 {
+        font-size: 1em;
+    }
+
+    .about {
+        font-size: 0.8em;
+    }
+
+    .video-overlay,
+    .photo-overlay {
+        font-size: 1em;
+    }
+}
+
+footer {
+    position: absolute;
+    top: 315%;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    font-family: "Oleo Script Swash Caps", system-ui;
+}
